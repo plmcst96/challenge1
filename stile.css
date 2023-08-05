@@ -1,0 +1,108 @@
+html,
+body
+{
+height: 100%;
+background: #222323 url(img/io.png) no-repeat left;
+background-size: 50%;
+background-position: cover;
+}
+header
+{
+position: initial;
+height: 100%;
+
+}
+#testo-header
+{
+position: initial;
+margin-top: 250px;
+margin-left: 780px;
+margin-right: 50px ;
+
+}
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: transparent;
+}
+
+li {
+float: right;
+}
+
+li a {
+display: block;
+color: aliceblue;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+
+}
+
+li a:hover {
+background-color: #43474b;
+}
+
+#about {
+
+	margin-top: 470px;
+	height: 100%;
+	width: 100%
+		
+}
+
+.contenitore .contenuto{
+	max-width:1200px;
+	margin:auto;
+	padding: 70px 10px;
+	
+}
+  footer{
+	border-top: 2px solid #000000; /* primary-color */
+	text-align:center;
+	padding:30px 10px;
+	line-height: 1.6em;
+	font-size: 1em;
+	background-color: #222323;/* primary color*/
+	color: #fff;
+	margin-top: 900px;
+	
+}
+
+footer a{
+	color: aliceblue; /* secondary-color*/
+}
+
+footer a:hover{
+	color:#8b9bdc; /* light seconday color*/	
+}
+
+ footer li {
+float: inherit;
+}
+
+footer .social-cont .social-list {
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+
+footer .social-cont .social-list > li {
+	margin: 8px 8px 8px 0;
+	display: inline-block;
+	vertical-align: top;
+	height: 50px;
+	width: 50px;
+	border-radius: 6em;
+    padding-right: 10px;
+	
+}
+
+footer .social-cont .social-list li img {
+	width: 50px
+}
+
+
+	
